@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+    overflow-x: hidden;
+    width: 100vw;
+} 
+
+/* react slice left Right arrows */
+.slick-arrow:before {
+    color: rgb(26, 25, 25);
+    padding: 5px;
+    font-size: 1.8rem;
+    margin: -20px;
+}
+
+/* navLinks behaviour on active */
+.active {
+    color: green
+}
+
+/* navLinks behavior on responsive */
+@media (max-width:768px) {
+    .active {
+        color: rgb(68, 194, 68);
+        transform: scale(1.2);
+    }
+}
