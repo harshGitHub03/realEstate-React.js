@@ -1,5 +1,5 @@
 import React from 'react'
-import blogHeroImg from '/navlinksHeroImages/blogsHero.jpeg'
+import blogHeroImg from '/navlinksHeroImages/blogsHero.jpg'
 
 import BlogComp from '../Components/BlogComp'
 
