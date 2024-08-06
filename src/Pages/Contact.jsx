@@ -28,7 +28,7 @@ function Contact() {
                     </div>
                 </div>
 
-                <form action="" className='sm:w-2/5 min-[] flex  flex-col gap-4'>
+                <form onSubmit={(e)=>{e.preventDefault(); alert("message sent!")}}className='sm:w-2/5 min-[] flex  flex-col gap-4'>
                     <div className='flex flex-col gap-2'>
                         <h3 className='text-lg '>Your Name</h3>
                         <input type="text" required className='rounded w-full py-2 px-3 outline-none' placeholder='Name' />

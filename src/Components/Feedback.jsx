@@ -7,31 +7,10 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 
-function SampleNextArrow(props) {
-    const { className, style, onClick } = props;
-    return (
-        <div
-            className={className}
-            style={{ ...style, display: "block", boxShadow: '10px', background: "blue", color: 'black' }}
-            onClick={onClick}
-        />
-    );
-}
-
-function SamplePrevArrow(props) {
-    const { className, style, onClick } = props;
-    return (
-        <div
-            className={className}
-            style={{ ...style, display: "block", background: "green", padding: '10px', width: 'fit-content', height: 'fit-content' }}
-            onClick={onClick}
-        />
-    );
-}
-
 
 function Feedback() {
 
+    // slick settings
     var settings = {
         dots: true,
         infinite: true,

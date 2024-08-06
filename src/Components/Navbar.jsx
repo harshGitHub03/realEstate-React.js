@@ -23,7 +23,7 @@ const Navbar = () => {
 
             <div className="text-xl flex flex-row-reverse items-center gap-2">
                 {/* <button className="px-3 py-2 text-xl font-medium">wishlist</button> */}
-                <button onClick={() => setSignInToggle(true)} className="flex max-md:text-[1.1rem] items-center max-lg:text-[1.2rem] max-md:px-3 px-4 max-md:py-[0.4rem] py-2 ml-3 rounded-full bg-green-500 text-white hover:bg-white hover:text-green-600 "><i class="fa-solid fa-right-to-bracket mr-1 "></i><p className="max-[850px]:hidden">Sign In</p></button>
+                <button onClick={() => setSignInToggle(true)} className="flex max-md:text-[1.1rem] items-center max-lg:text-[1.2rem] max-md:px-3 px-4 max-md:py-[0.4rem] py-2 ml-3 rounded-full bg-green-500 text-white hover:bg-white hover:text-green-600 "><i class="fa-solid fa-right-to-bracket mr-1 "></i><p className="max-[850px]:hidden">Sign Up</p></button>
                 <div onClick={() => showNav ? setShowNav(false) : setShowNav(true)} className="text-3xl p-1 md:hidden flex items-center hover:scale-110 duration-75">
                     {
                         showNav ? <i class="fa-solid fa-xmark"></i>:<i class="fa-solid fa-bars-staggered text-[1.41rem]"></i>
